@@ -15,15 +15,13 @@ var Main = React.createClass({
 
 var Main = (props) => {
     return (
-        <div>
+       
         <div>
           <Nav/>
-          <div>
              {props.children}
          </div>
-        </div>
-        </div>
+      
     );
 }
 
-module.exports = Main;
+module.exports = Main; 
